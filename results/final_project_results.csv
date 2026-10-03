@@ -1,0 +1,4 @@
+Pair,Total_Signals,Extreme_Signals,Unusual_Signals,Overall_Evaluable,Overall_Contracted,Overall_Contraction_Rate_%,Development_Evaluable,Development_Contraction_Rate_%,Validation_Evaluable,Validation_Contraction_Rate_%,Validation_Dislocation_Signals,Validation_Mean_Abs_Change,Validation_0.05_Cost_Mean_Net_Contraction,Validation_0.10_Cost_Mean_Net_Contraction
+TEN_vs_GUINEA,12,6,6,11,5,45.45454545454545,3,0.0,8,62.5,9,-0.11567450102241611,0.06567450102241609,0.015674501022416097
+TEN_vs_PETAL,10,5,5,9,4,44.44444444444444,4,25.0,5,60.0,6,-0.07479573019283164,0.02479573019283165,-0.025204269807168368
+GUINEA_vs_PETAL,12,10,2,12,7,58.333333333333336,7,57.14285714285714,5,60.0,5,0.001330645267182487,-0.051330645267182486,-0.10133064526718252

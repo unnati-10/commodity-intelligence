@@ -1,0 +1,118 @@
+
+COMMODITY DERIVATIVES INTELLIGENCE
+MCX GOLD RELATIVE PRICING ANALYZER
+============================================================
+
+RESEARCH PERIOD
+------------------------------------------------------------
+Start Date: 2026-09-14
+End Date:   2026-10-01
+
+Trading Dates: 14
+Development Dates: 9
+Validation Dates: 5
+
+DATA
+------------------------------------------------------------
+Historical exact-expiry observations: 84
+Relative-value pairs analyzed: 3
+
+Pairs:
+- TEN_vs_GUINEA
+- TEN_vs_PETAL
+- GUINEA_vs_PETAL
+
+SIGNAL METHODOLOGY
+------------------------------------------------------------
+Rolling window: 5 observations
+Minimum observations: 3
+Z-score calculation: look-ahead-safe
+Unusual threshold: |z| >= 2
+Extreme threshold: |z| >= 3
+
+VALIDATION
+------------------------------------------------------------
+Validation period:
+2026-09-25 to 2026-10-01
+
+The validation analysis measures whether the absolute
+relative-price spread contracted at the next available
+observation for the same exact expiry.
+
+RESULTS
+------------------------------------------------------------
+
+TEN_vs_GUINEA
+Total Signals: 12
+Extreme Signals: 6
+Unusual Signals: 6
+Overall Evaluable: 11
+Overall Contraction Rate: 45.45%
+Development Contraction Rate: 0.00%
+Validation Evaluable: 8
+Validation Contraction Rate: 62.50%
+Validation Mean Absolute Change: -0.115675
+
+TEN_vs_PETAL
+Total Signals: 10
+Extreme Signals: 5
+Unusual Signals: 5
+Overall Evaluable: 9
+Overall Contraction Rate: 44.44%
+Development Contraction Rate: 25.00%
+Validation Evaluable: 5
+Validation Contraction Rate: 60.00%
+Validation Mean Absolute Change: -0.074796
+
+GUINEA_vs_PETAL
+Total Signals: 12
+Extreme Signals: 10
+Unusual Signals: 2
+Overall Evaluable: 12
+Overall Contraction Rate: 58.33%
+Development Contraction Rate: 57.14%
+Validation Evaluable: 5
+Validation Contraction Rate: 60.00%
+Validation Mean Absolute Change: 0.001331
+
+
+COST SENSITIVITY
+------------------------------------------------------------
+Cost assumptions of 0.05 and 0.10 percentage points were
+used only as hypothetical sensitivity assumptions.
+
+They are NOT verified brokerage, taxes, bid-ask spread,
+slippage, exchange charges, or execution costs.
+
+IMPORTANT LIMITATIONS
+------------------------------------------------------------
+1. The research sample contains only 14 trading dates.
+2. The validation period contains only 5 trading dates.
+3. Observations within an expiry lifecycle may not be
+   statistically independent.
+4. Closing/settlement prices are not guaranteed executable
+   prices.
+5. Volume does not represent complete market depth.
+6. Actual transaction costs were not modeled.
+7. GOLDM was excluded from the exact-expiry 999-purity
+   comparisons because its expiry schedule and purity differ.
+8. The current walk-forward split is a prototype and should
+   be tested over substantially longer historical data.
+9. The results should be interpreted as historical research
+   findings, not as a prediction or trading recommendation.
+
+CONCLUSION
+------------------------------------------------------------
+The project demonstrates a complete research pipeline for
+detecting, classifying, and evaluating relative pricing
+dislocations between selected MCX gold contracts.
+
+The validation results provide an initial out-of-sample
+research check, while the limited sample size and simplified
+execution-cost assumptions mean that stronger conclusions
+require substantially more historical data and more realistic
+execution modeling.
+
+============================================================
+END OF PROJECT SUMMARY
+============================================================

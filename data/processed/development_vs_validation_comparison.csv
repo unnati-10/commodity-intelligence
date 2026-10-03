@@ -1,0 +1,4 @@
+Pair,Development_Signals,Development_Evaluable,Development_Contracted,Development_Contraction_Rate_%,Development_Mean_Abs_Change,Validation_Signals,Validation_Evaluable,Validation_Contracted,Validation_Contraction_Rate_%,Validation_Mean_Abs_Change,Rate_Difference_Percentage_Points
+TEN_vs_GUINEA,3,3,0,0.0,0.18759573664508253,9,8,5,62.5,-0.11567450102241611,62.5
+TEN_vs_PETAL,4,4,1,25.0,0.0641002847309482,6,5,3,60.0,-0.07479573019283164,35.0
+GUINEA_vs_PETAL,7,7,4,57.14285714285714,-0.07449467114251829,5,5,3,60.0,0.001330645267182487,2.857142857142861

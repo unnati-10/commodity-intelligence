@@ -1,0 +1,4 @@
+Pair,Validation_Observations,Extreme_Signals,Unusual_Signals,Insufficient_History,Normal,Evaluable_Signals,Contracted,Expanded,Contraction_Rate_%,Mean_Absolute_Spread_Change
+TEN_vs_GUINEA,30,5,4,1,20,8,5,3,62.5,-0.11567450102241611
+TEN_vs_PETAL,30,4,2,1,23,5,3,2,60.0,-0.07479573019283164
+GUINEA_vs_PETAL,30,4,1,1,24,5,3,2,60.0,0.001330645267182487
